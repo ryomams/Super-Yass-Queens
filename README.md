@@ -1,2 +1,9 @@
 # Super-Yass-Queens
-Source for Super Yass Queens: Cute Punch!
+Source for _Super Yass Queens: Cute Punch!_
+
+## Dependencies
+* Electron
+    * Node.js
+* three.js
+* TypeScript
+
