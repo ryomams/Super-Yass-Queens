@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>super-yass-test</title>
     <script>
         console.log("Good Morning from index.html!");
     </script>
+    <style>
+        /*css so that the game viewport doesn't bounce around when you touch the arrow keys*/
+        html, body, script {
+            padding: 0;
+            border: 0;
+            margin: 0;
+        }
+        canvas, img { /* thanks notch */
+            image-rendering: optimizeSpeed;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: optimize-contrast;
+            -ms-interpolation-mode: nearest-neighbor;
+            width:848px;
+            height:480px;
+        }
+    </style>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <canvas id="game" width="424" height="240"></canvas>
+    <h1>GAY GAY HOMOSEXUAL GAY</h1>
+    <script type="module">
+		console.log("Hello from index.html!");
+        import * as THREE from 'three';
+  
+    	if (false) {
+        	console.log("The world has ended. Please do not run this program, and instead take shelter.");
+    	}
+        
+        mc_init();
+
+    </script>
   </body>
 </html>
